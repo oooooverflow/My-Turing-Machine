@@ -9,7 +9,7 @@
 ; cp1是将第二条纸带的内容拼接到第三条纸带的后面。cp2是将第三条纸带的内容拼接到第二条纸带的后面。
 ; reject是清空第一条纸带的内容并填上False。accept是清空第一条纸带的内容并填上True。
 ; halt_reject是halt并拒绝输入。halt_accept是halt并接受输入。
-#Q = {0,p1,jdg1pre,jdg2pre,jdg1,jdg2,mh1,mh2,cp1,cp2,reject,reject0.reject1,reject2,reject3,reject4,halt_reject,accept,accept0,accept1,accept2,accept3,halt_accept}
+#Q = {0,p1,jdg1pre,jdg2pre,jdg1,jdg2,mh1,mh2,cp1,cp2,reject,reject0,reject1,reject2,reject3,reject4,halt_reject,accept,accept0,accept1,accept2,accept3,halt_accept}
 
 #S = {0}
 
